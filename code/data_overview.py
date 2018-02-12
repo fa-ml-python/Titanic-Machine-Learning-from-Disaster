@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # Импорт данных
-data = read_csv("D:\\GitHub\\Titanic-Machine-Learning-from-Disaster\\data\\tidy_data\\train.csv")
+data = read_csv("../data/tidy_data/train.csv")
 
 """
 Ручное описание колонок даных:

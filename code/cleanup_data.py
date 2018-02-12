@@ -8,8 +8,8 @@ from pandas import read_csv
 """
 Импорт данных
 """
-titanic_df = read_csv("D:\\GitHub\\Titanic-Machine-Learning-from-Disaster\\data\\raw_data\\train.csv")
-test_df = read_csv("D:\\GitHub\\Titanic-Machine-Learning-from-Disaster\\data\\raw_data\\test.csv")
+titanic_df = read_csv("../data/raw_data/train.csv")
+test_df = read_csv("../data/raw_data/test.csv")
 
 """
 Для начала, удалим ненужные нам колонки: 'PassengerId','Name','Ticket'.

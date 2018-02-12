@@ -4,8 +4,8 @@ from pandas import read_csv, get_dummies
 Импорт данных
 """
 
-titanic_df = read_csv("D:\\GitHub\\Titanic-Machine-Learning-from-Disaster\\data\\tidy_data\\train.csv")
-test_df = read_csv("D:\\GitHub\\Titanic-Machine-Learning-from-Disaster\\data\\tidy_data\\test.csv")
+titanic_df = read_csv("../data/tidy_data/train.csv")
+test_df = read_csv("../data/tidy_data/test.csv")
 
 
 """
