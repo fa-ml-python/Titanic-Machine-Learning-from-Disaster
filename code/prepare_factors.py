@@ -83,5 +83,5 @@ Y_train = titanic_df["Survived"]
 X_test = test_df.copy()
 
 X_train.to_csv('../data/factors/x_train.csv', index=False)
-Y_train.to_csv('../data/factors/y_train.csv', index=False)
+Y_train.to_csv('../data/factors/y_train.csv', index=False, header=True)
 X_test.to_csv('../data/factors/x_test.csv', index=False)
